@@ -33,7 +33,7 @@ let profile = JSON.parse(fs.readFileSync("profile.json", "utf8"))
 
 
 const devs = ['450822258605424642'];
-const adminprefix = "-";
+const adminprefix = "k";
 client.on('message', message => {
     var argresult = message.content.split( ).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -117,7 +117,7 @@ client.on("message", message => {
 
 
 client.on('message', message => {
-    var prefix = "#";
+    var prefix = "k";
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
  
